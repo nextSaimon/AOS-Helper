@@ -1,0 +1,73 @@
+{
+  "name": "aos-suggestions",
+  "displayName": "AOS Suggestions",
+  "description": "Provides suggestions for AOS animations and attributes in HTML, CSS, JavaScript, JSX, and TSX files.",
+  "version": "1.1.0",
+  "publisher": "your-publisher-name",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/nextSaimon/AOS-helper-extension.git"
+    },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:aos-suggestions-vscode-extension.insertAOS",
+    "onLanguage:html",
+    "onLanguage:css",
+    "onLanguage:javascript",
+    "onLanguage:javascriptreact",
+    "onLanguage:typescriptreact"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "aos-suggestions-vscode-extension.insertAOS",
+        "title": "Insert AOS Basic Structure"
+      }
+    ],
+    "languages": [
+      {
+        "id": "html",
+        "aliases": [
+          "HTML"
+        ]
+      },
+      {
+        "id": "css",
+        "aliases": [
+          "CSS"
+        ]
+      },
+      {
+        "id": "javascript",
+        "aliases": [
+          "JavaScript"
+        ]
+      },
+      {
+        "id": "javascriptreact",
+        "aliases": [
+          "JavaScript React"
+        ]
+      },
+      {
+        "id": "typescriptreact",
+        "aliases": [
+          "TypeScript React"
+        ]
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "tsc -p ./"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.2",
+    "@types/vscode": "^1.60.0"
+  }
+}
