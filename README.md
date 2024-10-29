@@ -2,6 +2,11 @@
 
 A lightweight Visual Studio Code extension that provides suggestions for [Animate on Scroll (AOS)](https://michalsnik.github.io/aos/) animations and attributes in HTML, CSS, JavaScript, JSX, and TSX files. This extension enhances productivity by offering autocompletion for AOS attributes, easing functions, and animations, allowing you to quickly add scroll-triggered animations to your projects.
 
+## Get Extension
+
+You can download the AOS Helper extension from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=nextsaimon.aos-helper).
+
+
 ## Video Tutorial
 
 [Download/View Video](./image/video.mp4)
