@@ -1,21 +1,21 @@
 {
-  "name": "aos-suggestions",
-  "displayName": "AOS Suggestions",
+  "name": "aos-helper",
+  "displayName": "AOS Helper",
   "description": "Provides suggestions for AOS animations and attributes in HTML, CSS, JavaScript, JSX, and TSX files.",
-  "version": "1.1.0",
-  "publisher": "your-publisher-name",
+  "version": "1.2.0",
+  "publisher": "nextsaimon",
   "engines": {
     "vscode": "^1.60.0"
   },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/nextSaimon/AOS-helper-extension.git"
-    },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nextSaimon/AOS-Helper.git"
+  },
   "categories": [
     "Other"
   ],
   "activationEvents": [
-    "onCommand:aos-suggestions-vscode-extension.insertAOS",
+    "onCommand:aos-helper.insertAOS",
     "onLanguage:html",
     "onLanguage:css",
     "onLanguage:javascript",
@@ -26,7 +26,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "aos-suggestions-vscode-extension.insertAOS",
+        "command": "aos-helper.insertAOS",
         "title": "Insert AOS Basic Structure"
       }
     ],
@@ -59,6 +59,12 @@
         "id": "typescriptreact",
         "aliases": [
           "TypeScript React"
+        ]
+      },
+      {
+        "id": "astro",
+        "aliases": [
+          "Astro"
         ]
       }
     ]
