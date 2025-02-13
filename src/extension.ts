@@ -17,7 +17,7 @@ export function activate(context: vscode.ExtensionContext) {
   );
 
   const aosSuggestionsProvider = vscode.languages.registerCompletionItemProvider(
-    { language: 'html' },
+    [{ language: 'html' }, { language: 'astro' }, { language: 'javascriptreact' }],
     provideAOSSuggestions(),
     '!'
   );
