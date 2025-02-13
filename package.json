@@ -2,7 +2,7 @@
   "name": "aos-helper",
   "displayName": "AOS Helper",
   "description": "Provides suggestions for AOS animations and attributes in HTML, CSS, JavaScript, JSX, and TSX files.",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "publisher": "nextsaimon",
   "engines": {
     "vscode": "^1.60.0"
@@ -23,6 +23,7 @@
     "onLanguage:typescriptreact"
   ],
   "main": "./dist/extension.js",
+  "icon": "image/icon.png",
   "contributes": {
     "commands": [
       {
